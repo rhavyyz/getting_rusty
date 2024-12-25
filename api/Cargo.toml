@@ -1,0 +1,10 @@
+[package]
+name = "api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.9"
+serde = { version = "1.0.216", features = ["derive"] }
+tokio = { version = "1.4.2", features = ["rt", "rt-multi-thread", "macros"] }
+tower = "0.5.1"
